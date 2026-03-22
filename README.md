@@ -84,7 +84,6 @@ Unfortunately X's API is no longer free to read from — this catches a lot of p
 
 1. You need access to use X's API and also to see their documentation on how to interact with it. You'll find this here: https://docs.x.com/x-api/introduction then for getting access here: https://docs.x.com/x-api/getting-started/getting-access. Follow the guide laid out here which involves signing up to X if you haven't before and then visiting the Developer Console https://console.x.com/onboarding. Submit your application and be honest about your anticipated usecase.
 2. Continue following the guide in https://docs.x.com/x-api/getting-started/getting-access moving onto step 2. This will be creating a New App and you will eventually get some credentials. You will want to here create a new file in the project root called `.env` You will see I have made an example file called .env.example you can copy. Paste your credentials in appropriatley. These are sensitive, you do not want other people to be able to see them hence you cannot see my .env file in Github! The Bearer Token is the most relevant one for you, you will send it with your API requests when accessing data. 
-3.
 
 ## Understanding the code — `make_x_health_api_call()`
 
